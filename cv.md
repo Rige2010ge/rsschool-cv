@@ -1,5 +1,7 @@
 # Alexander Krasnyshev
 
+![photo-Alex](/img/photo-Alex.png)
+
 ## Junior Frontend Developer
 
 
