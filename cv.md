@@ -2,6 +2,8 @@
 
 ## Alexander Dzidziguri
 
+![My photo](./my_photo.png)
+
 ### Contact information
 
 - Discord: @rige2010
