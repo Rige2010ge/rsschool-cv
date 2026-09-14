@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="main-container">
+      <h1>CV</h1>
+      <div class="inner-container">
+        <div class="info-container">
+
+          <div class="name-block">
+            <h2>Alexander Dzidziguri</h2>
+
+            <img src="./my_photo.png" alt="Alexander Dzidziguri">
+          </div>
+
+          <div>
+            <h3>Contact information</h3>
+
+            <ul>
+              <li>Discord: @rige2010</li>
+              <li>Email: <a href="mailto:rige2010ge@gmail.com">rige2010ge@gmail.com</a></li>
+              <li>Telegram: <a href="https://t.me/rige13">@rige13</a></li>
+              <li>Phone: <a href="tel:+79005393399">+79005393399</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="about-container">
+          <h3>About me</h3>
+
+          <p>
+            I am a beginner Frontend developer. I enjoy writing useful code and learning new things.
+            I work on small projects to improve my skills in HTML, CSS, and JavaScript.
+            I am learning JavaScript and modern frameworks and want to become a better developer.
+          </p>
+
+          <q><i>Everything is possible. The impossible just takes longer.</i></q>
+
+          <div>
+            <h3>Stack</h3>
+
+            <ul>
+              <li>Git</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>TS</li>
+              <li>Basic React</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Code Example</h3>
+
+            Codewars. Kata's name: <a href="https://www.codewars.com/kata/52a89c2ea8ddc5547a000863">Can you get the loop
+              ?</a>
+            <br>
+            My solution:
+
+            <pre>
+        let nodeArray = [];
+        
+        function loop_size(node) {
+            let nextNode = node.getNext();
+            let collection = new Set();
+        
+            while (true) {
+                if (node !== nextNode) {
+                    let hasNode = collection.has(node);
+                    collection.add(node);
+                    if (hasNode) {
+                        let index;
+                        [...collection].forEach((el, indexArr) =&gt; {
+                        if (el === node) index = indexArr;
+                        });
+                        return collection.size - index;
+                    } else {
+                        node = nextNode;
+                        nextNode = node.getNext();
+                    }
+                } else {
+                    return 1;
+                }
+            }
+        }
+        </pre>
+
+          </div>
+
+          <div>
+            <h3>Work experience</h3>
+
+            <p>
+              I developed a big website using React and TypeScript.
+              I also created a program to calculate door casings, extensions, and frames. It helped managers work faster
+              and
+              made their daily work easier.
+            </p>
+          </div>
+
+          <div>
+            <h3>Education</h3>
+
+            <span>2023 - 2026</span>
+
+            <ul>
+              <li>CS50</li>
+              <li>A.V.Stolyarov Books</li>
+              <li>Anjela’s Yu Course on Udemy</li>
+              <li>Skillbox Frontend developer course</li>
+              <li>Frontendmasters courses</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Languages</h3>
+
+            <ul>
+              <li>Russian Native</li>
+              <li>English A2-B1 Level</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div>Go to my <a href="https://github.com/Rige2010ge" target="_blank">Github</a></div>
+    <div class="logo-container"><a href="https://rs.school/courses/javascript" target="_blank"><img
+          src="./rs-school-logo.svg" alt="Логотип RS School"></a></div>
+    <div>©2026</div>
+  </footer>
+
+
+</body>
+
+</html>
